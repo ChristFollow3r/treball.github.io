@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Trivial</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="NAV" href="index.html" target="_blank">INDEX</a>
+            <a class="NAV" href="hobbies.html" target="_blank">HOBBIES</a>
+            <a class="NAV" href="trivial.html">TRIVIAL</a>
+            <a class="NAV" href="contacte.html" target="_blank">CONTACTE</a>
+        </nav>
+    </header>
+
+    <section>
+        <section class="TRIVIAL">
+            <form>
+                <h4> Quin es el monstre més molest de tota la saga de Monster Hunter?</h5>
+                    <label> <!-- Lo de label li he preguntat a la IA, perquè ho estava fent sense label i només estava cambiant el color del radio button-->
+                        <input type="radio" name="A" class="RESPOSTA_A" data-correcte="FALSE"> Vespoid
+                    </label>
+                    <label>
+                        <input type="radio" name="A" class="RESPOSTA_A" data-correcte="FALSE"> Plesioth
+                    </label>
+                    <label>
+                        <input type="radio" name="A" class="RESPOSTA_A" data-correcte="FALSE"> Diablos
+                    </label>
+                    <label>
+                        <input type="radio" name="A" class="RESPOSTA_A" data-correcte="TRUE"> Khezu
+                    </label>
+            </form>
+            <button class="SUBMIT_TRIVIAL" onclick="checkAnswerA()">Confirm</button>
+        </section>
+        <section class="TRIVIAL">
+              <form>
+                <h4> Quin es el millor monstre de tota la saga de Monster Hunter?</h5>
+                    <label>
+                        <input type="radio" name="B" class="RESPOSTA_B" data-correcte="FALSE"> Kirin
+                    </label>
+                    <label>
+                        <input type="radio" name="B" class="RESPOSTA_B" data-correcte="TRUE"> Tigrex
+                    </label>
+                    <label>
+                        <input type="radio" name="B" class="RESPOSTA_B" data-correcte="FALSE"> Rathalos
+                    </label>
+                    <label>
+                        <input type="radio" name="B" class="RESPOSTA_B" data-correcte="FALSE"> Nargakuga
+                    </label>
+            </form>
+            <button class="SUBMIT_TRIVIAL" onclick="checkAnswerB()">Confirm</button>
+        </section>
+    </section>
+
+    <footer>
+        <a href="https://github.com/ChristFollow3r" target="_blank">
+            <img class="IMG_FOOTER" src="Images/GitHub_Logo.webp" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/nil.badia01" target="_blank">
+            <img class="IMG_FOOTER" src="Images/Instagram_Logo.webp" alt="Instagram">
+        </a>
+        <a href="https:/www.linkedin.com/in/nil-badia-gimenez-65a424137" target="_blank">
+            <img class="IMG_FOOTER" src="Images/LinkedIn_Logo.webp" alt="LinkedIn">
+        </a>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

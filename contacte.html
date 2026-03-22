@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Contacte</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a class="NAV" href="index.html" target="_blank">INDEX</a>
+            <a class="NAV" href="hobbies.html" target="_blank">HOBBIES</a>
+            <a class="NAV" href="trivial.html" target="_blank">TRIVIAL</a>
+            <a class="NAV" href="contacte.html">CONTACTE</a>
+        </nav>
+    </header>
+
+    <section>
+        <form class="CONTACT_FORM">
+            <label class="CONTACT_INPUT">Nom</label>
+            <input type="text" name="Nom" required> <!-- Names are onlu usefull when you actually send the data somewhere -->
+
+            <label class="CONTACT_INPUT">Edat</label>
+            <input type="number" name="Edat" id="Edat" required>
+
+            <label class="CONTACT_INPUT">Correu</label>
+            <input type="email" name="Correu" id="Correu" required>
+
+            <label class="CONTACT_INPUT">Telèfon</label>
+            <input type="number" required>
+            <button onclick="validateAge(); validateEmail()" class="SUBMIT_BUTTON" type="submit">Enviar</button>
+        </form>
+        
+    </section>
+
+    <footer>
+        <a href="https://github.com/ChristFollow3r" target="_blank">
+            <img class="IMG_FOOTER" src="Images/GitHub_Logo.webp" alt="GitHub">
+        </a>
+        <a href="https://www.instagram.com/nil.badia01" target="_blank">
+            <img class="IMG_FOOTER" src="Images/Instagram_Logo.webp" alt="Instagram">
+        </a>
+        <a href="https:/www.linkedin.com/in/nil-badia-gimenez-65a424137" target="_blank">
+            <img class="IMG_FOOTER" src="Images/LinkedIn_Logo.webp" alt="LinkedIn">
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

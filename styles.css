@@ -1,0 +1,159 @@
+body {
+    background-color: #6497b1;
+    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.NAV {
+    text-decoration: none; /*Això m'ho ha dit la IA  (ja ho habia fet abans però no m'enrecordava de com fer-ho) */
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: rgb(166, 205, 236);
+    /* border: 2px solid black; */
+    color: black;
+}
+
+.NAV:hover {
+    background-color: #aedfff; /*Aquest color li he demanat a la IA perquè no trobava cap que m'agradava*/
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.IMG_FOOTER  {
+    margin: 10px;
+    border-radius: 100%;
+    border: 1px solid black;
+    width: 50px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.15); /*Això m'ho ha dit la ia*/
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 8px;
+    align-items: center;
+    text-align: center;
+    background-color: #b3cde0;
+    padding: 20px;
+    padding-inline: 15px;
+    margin: 20px auto;
+    width: 45%; /* Això m'ho ha dit la IA*/
+}
+
+.IMG_PARAGRAPH {
+    display: flex;
+    margin: 10px auto;
+    border: 1px solid black;
+    margin: 10px auto;
+}
+
+iframe {
+    margin-top: 10px;
+    width: 480px;
+    height: 270px;
+}
+
+.VIDEO {
+    display: flexbox;
+    width: 75% !important;
+    height: auto;
+    border: 2px solid beige;
+    box-shadow: 10px 10px 30px black;
+}
+
+.REFERENCE {
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+h5 {
+    margin-bottom: 0%;
+}
+
+#RANKING_SECTION {
+    background-color: rgba(245, 245, 220, 0.363);
+}
+
+.RANKING_LINKS {
+    text-decoration: none;
+    color: black;
+}
+
+.RANKING_LINKS:hover {
+    color:rgb(64, 70, 75)
+}
+
+.RANKING {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.9em;
+}
+
+.TRIVIAL {
+    background-color: rgba(169, 169, 169, 0.507);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+h4 {
+    margin-top: 0%;
+}
+
+button.SUBMIT_TRIVIAL {
+    padding: 2% 5% 2%;
+    margin-top: 20px;
+    background-color: rgba(250, 235, 215, 0.644);
+}
+
+button.SUBMIT_TRIVIAL:hover {
+    background-color: antiquewhite;
+}
+
+.CONTACT_FORM {
+    display: grid; /* Això de grid sabia que existia, però li he preguntat a la IA per anar mes ràpid*/
+    grid-template-columns: auto auto;
+    align-items: center;
+    text-align: left;
+}
+
+.CONTACT_INPUT {
+    margin-right: 5px;
+}
+
+.SUBMIT_BUTTON {
+    margin-top: 10px;
+    grid-column: 1 / -1;
+    justify-self: center;
+    padding: 5px 20px;
+}
+
+input.correcte {
+    background-color: lightgreen;
+}
+
+input.incorrecte { 
+    background-color: lightcoral;
+}
