@@ -13,26 +13,27 @@
             <a class="NAV" href="index.html" target="_blank">INDEX</a>
             <a class="NAV" href="hobbies.html" target="_blank">HOBBIES</a>
             <a class="NAV" href="trivial.html" target="_blank">TRIVIAL</a>
-            <a class="NAV" href="contacte.html">CONTACTE</a>
+            <a class="NAV" href="contacte.html">CONTACT</a>
         </nav>
     </header>
 
     <section>
         <form class="CONTACT_FORM">
-            <label class="CONTACT_INPUT">Nom</label>
-            <input type="text" name="Nom" required> <!-- Names are onlu usefull when you actually send the data somewhere -->
+            <label class="CONTACT_INPUT">Name</label>
+            <input type="text" name="Nom" required>
+            <!-- Names are only usefull when you actually send the data somewhere -->
 
-            <label class="CONTACT_INPUT">Edat</label>
+            <label class="CONTACT_INPUT">Age</label>
             <input type="number" name="Edat" id="Edat" required>
 
-            <label class="CONTACT_INPUT">Correu</label>
+            <label class="CONTACT_INPUT">Email</label>
             <input type="email" name="Correu" id="Correu" required>
 
-            <label class="CONTACT_INPUT">Telèfon</label>
+            <label class="CONTACT_INPUT">Phone number</label>
             <input type="number" required>
             <button onclick="validateAge(); validateEmail()" class="SUBMIT_BUTTON" type="submit">Enviar</button>
         </form>
-        
+
     </section>
 
     <footer>
